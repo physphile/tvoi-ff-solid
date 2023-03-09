@@ -1,0 +1,31 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+	position: sticky;
+	top: 56px;
+	background: white;
+}
+
+.button {
+	padding: 16px 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-weight: 500;
+	color: inherit;
+}
+
+.button:active {
+	color: inherit;
+}
+
+.right {
+	margin-left: 4px;
+}
+
+.today {
+	font-weight: 500;
+}

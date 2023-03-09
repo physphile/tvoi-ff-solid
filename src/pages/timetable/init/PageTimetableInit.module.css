@@ -1,0 +1,24 @@
+.groupLabel {
+	padding: 4px 8px;
+	background: rgba(173, 216, 230, 50%);
+	border-radius: 999px;
+}
+
+.groupsList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.logo {
+	max-width: min(100%, 256px);
+	aspect-ratio: 1;
+	align-self: center;
+	margin-bottom: 20px;
+	pointer-events: none;
+}
+
+.input {
+	align-self: center;
+	margin-bottom: 20px;
+}

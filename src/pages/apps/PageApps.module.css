@@ -1,0 +1,62 @@
+.grid3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+}
+
+.grid3 .icon {
+	padding: 12px;
+	width: min(128px, 100%);
+	height: auto;
+	aspect-ratio: 1;
+	border: 1px solid gray;
+	border-radius: 25%;
+	box-shadow: 1px 1px #d3d3d3;
+	margin-bottom: 8px;
+	display: inline-block;
+}
+
+.grid3 .app {
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	color: inherit;
+	line-height: 90%;
+	font-weight: 700;
+	overflow-wrap: anywhere;
+	text-align: center;
+}
+
+.list .app {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+	padding: 12px 24px;
+	gap: 0.8em;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.app:last-child() {
+	margin-bottom: 0;
+}
+
+.main {
+	width: min(600px, 100%);
+}
+
+.h2 {
+	margin-bottom: 16px;
+	font-weight: normal;
+}
+
+.section {
+	margin-bottom: 24px;
+}
+
+.section:last-child {
+	margin-bottom: 0;
+}

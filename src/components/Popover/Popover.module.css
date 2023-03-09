@@ -1,0 +1,20 @@
+.popover {
+	position: absolute;
+	z-index: 999;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 50%);
+	color: black;
+}
+
+.expander {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	font-size: 24px;
+}
+
+.hidden {
+	display: none;
+}
